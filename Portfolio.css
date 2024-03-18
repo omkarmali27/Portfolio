@@ -1,0 +1,88 @@
+
+*
+{
+	box-sizing: border-box;
+	margin: 0px;
+	font-family: sans-serif;
+}
+.navmenu
+{
+	font-size: 20px;
+	color: royalblue;
+	font-weight: bolder;
+
+}
+.logo
+{
+	font-size: 25px;
+	font-family: Elephant;
+	font-variant: small-caps;
+	color: orangered;
+}
+/for whole section menue/
+.section_menu{
+	position: relative;
+	top: 100px;
+}
+.section_menu div{
+	height: 400px;
+	width: 100%;
+	border: 5px solid red;
+}
+.navbar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	width: 100%;
+}
+html{
+	scroll-behavior: smooth;
+}
+#home{
+   height: 500px;
+   width: 100%;
+   background-image: url('https://media.tenor.com/NOYF3f82b_gAAAAC/programmer.gif');
+   background-repeat: no-repeat;
+   background-position: 100% 90%;
+
+
+}
+.homeinfo{
+	
+	position: absolute;
+	top: 70px;
+	left: 50px;
+	height: 400px;
+	width: 800px;
+	font-size: 30px;
+	font-family: Times New Roman ;
+	font-weight: bolder;
+	
+}
+.ginfo{
+	font-variant: small-caps;
+}
+.myname{
+	font-family: elephant;
+	color: royalblue;
+	font-size: 50px;
+}
+.fullstack{
+	color: orangered;
+	font-size: 33px;
+}
+.resumebutton{
+	border: none;
+	height: 50px;
+	width: 170px;
+	color: white;
+	background-color: royalblue;
+	border-radius: 10px;
+}
+.resumebutton:hover{
+	transform: scale(1.1);
+	background-color: white;
+	color: royalblue;
+	border: 3px solid royalblue;
+}
